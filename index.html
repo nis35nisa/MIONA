@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MIONA - Özgün 3D baskı tasarımları, yaşam alanlarına özel dokunuşlar.">
+    <title>MIONA | Design Your World</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="announcement">
+        MIONA dünyasına hoş geldin · Tasarımın yeni hali
+    </div>
+
+    <header class="header">
+        <a href="#" class="logo">MIONA<span>.</span>
+            <small>DESIGN STUDIO</small>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Menüyü aç" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="nav" id="navigation">
+            <a href="#home">Ana Sayfa</a>
+            <a href="#categories">Koleksiyon</a>
+            <a href="#products">Ürünler</a>
+            <a href="#about">Hikâyemiz</a>
+            <a href="#contact">İletişim</a>
+        </nav>
+
+        <a href="#products" class="header-button">Keşfet ↗</a>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <span class="eyebrow">DESIGN MEETS TECHNOLOGY</span>
+                <h1>Hayal ettiğin<br>
+                    dünya, <em>tasarlanır.</em>
+                </h1>
+                <p>
+                    Sıradanlığın ötesinde, sana özel tasarımlar.
+                    3D baskı teknolojisiyle fikirleri yaşamın bir
+                    parçasına dönüştürüyoruz.
+                </p>
+                <div class="hero-actions">
+                    <a href="#products" class="btn-primary">Koleksiyonu keşfet ↗</a>
+                    <a href="#about" class="btn-text">Bizi tanı</a>
+                </div>
+                <div class="hero-note">
+                    <span>✳</span> Küçük detaylar, büyük farklar.
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1490312278390-ab64016e0aa9?w=1000" alt="Modern dekorasyon ve tasarım">
+                </div>
+                <div class="floating-card">
+                    <span>01 / OUR PHILOSOPHY</span>
+                    <strong>Designed<br>with intention.</strong>
+                </div>
+                <div class="hero-circle">M<br>✳<br>N</div>
+            </div>
+        </section>
+
+        <section class="categories section" id="categories">
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">EXPLORE MIONA</span>
+                    <h2>Keşfetmeye <em>başla.</em></h2>
+                </div>
+                <p>Her fikir bir tasarıma, her tasarım<br>kendine özgü bir hikâyeye dönüşür.</p>
+            </div>
+
+            <div class="category-grid">
+                <a href="#products" class="category-card" data-category="dekorasyon">
+                    <span>01</span>
+                    <h3>Yaşam & Dekorasyon ↗</h3>
+                </a>
+                <a href="#products" class="category-card" data-category="aksesuar">
+                    <span>02</span>
+                    <h3>Aksesuar ↗</h3>
+                </a>
+                <a href="#products" class="category-card" data-category="organizasyon">
+                    <span>03</span>
+                    <h3>Organizasyon ↗</h3>
+                </a>
+                <a href="#products" class="category-card" data-category="ozel">
+                    <span>04</span>
+                    <h3>Sana Özel ↗</h3>
+                </a>
+            </div>
+        </section>
+
+        <section class="products section" id="products">
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">THE COLLECTION</span>
+                    <h2>Öne çıkan <em>tasarımlar.</em></h2>
+                </div>
+                <a href="#contact" class="btn-text">Özel tasarım iste ↗</a>
+            </div>
+
+            <div class="filters">
+                <button class="filter active" data-filter="all">Tümü</button>
+                <button class="filter" data-filter="dekorasyon">Dekorasyon</button>
+                <button class="filter" data-filter="aksesuar">Aksesuar</button>
+                <button class="filter" data-filter="organizasyon">Organizasyon</button>
+            </div>
+
+            <div class="product-grid" id="productGrid"></div>
+        </section>
+
+        <section class="custom-design section" id="custom">
+            <div>
+                <span class="eyebrow">YOUR IDEA, OUR DESIGN</span>
+                <h2>Aklındaki tasarım<br><em>gerçeğe dönüşsün.</em></h2>
+                <p>Bir fikrin mi var? İhtiyacını anlat, birlikte tasarlayalım.</p>
+                <a href="#contact" class="btn-light">Tasarımını anlat ↗</a>
+            </div>
+            <div class="custom-symbol">M.</div>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="about-label">
+                <span class="eyebrow">A LITTLE ABOUT US</span>
+                <h2>Tasarımın<br>ötesinde bir<br><em>bakış açısı.</em></h2>
+            </div>
+            <div class="about-text">
+                <p>
+                    MIONA, yaratıcılığı teknolojiyle buluşturan
+                    bir tasarım markasıdır.
+                </p>
+                <p>
+                    3D baskı teknolojisini kullanarak günlük
+                    yaşamı güzelleştiren, işlevsel ve özgün
+                    tasarımlar üretmeyi hedefliyoruz.
+                </p>
+                <span class="about-signature">Made with imagination. MIONA.</span>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <span class="eyebrow">LET'S CREATE SOMETHING</span>
+            <h2>Bir fikrin varsa,<br><em>konuşalım.</em></h2>
+            <p>Soruların, siparişlerin veya özel tasarım fikirlerin için bize ulaş.</p>
+            <a href="#" id="contactWhatsapp" class="btn-primary">WhatsApp ile iletişime geç ↗</a>
+        </section>
+
+        <div class="modal" id="productModal">
+            <div class="modal-content">
+                <button class="modal-close" id="closeModal">×</button>
+                <img id="modalImage" src="" alt="">
+                <div class="modal-details">
+                    <span class="eyebrow">MIONA COLLECTION</span>
+                    <h2 id="modalName"></h2>
+                    <p id="modalDescription"></p>
+                    <a id="modalOrder" class="btn-primary" target="_blank" rel="noopener noreferrer">
+                        WhatsApp ile sipariş ver ↗
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <a href="#" class="logo">MIONA<span>.</span></a>
+        <p>Design your world. © 2026 MIONA Studio.</p>
+        <a href="#home">Yukarı çık ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
